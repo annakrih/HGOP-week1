@@ -1,5 +1,4 @@
 # Questions
-Anna Kristín
 
 <dl>
    <dt>What is Linux </dt> 
