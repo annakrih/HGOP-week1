@@ -1,8 +1,5 @@
 # Defines an base image from which the build process starts. 
- # (followed by various other methods, commands and 
- # arguments that in return provide a new image which 
- # is to be used for creating docker container)
- # this base image contains Node.js - edition Carbon 8
+# this base image contains Node.js - edition Carbon 8, right?
 FROM node:carbon
 
 # Set the working directory to /code
