@@ -1,0 +1,16 @@
+version: "2"
+services:
+  my_page_counter_app_and_item_storage_app:
+    image: annakrih/week1:day2
+    ports:
+     - "3000:3000"
+    links:
+     - my_redis_container
+  my_redis_container:
+    image: redis
+  my_posgres_container:
+    image: postgres
+    environment:
+      - POSTGRES_DB=hgopDB
+      - POSTGRES_USER=PostgresAdmin
+      - POSTGRES_PASSWORD=AnnaKristin
