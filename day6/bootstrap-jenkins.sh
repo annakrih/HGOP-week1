@@ -16,7 +16,8 @@ sudo usermod -a -G docker ec2-user
 sudo yum install jenkins -y
 sudo usermod -a -G docker jenkins
 
+sudo yum install git -y
+
 sudo service jenkins start
 
 touch ec2-init-done.markerfile
-
