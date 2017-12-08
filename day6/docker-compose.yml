@@ -1,7 +1,7 @@
 version: "2"
 services:
   my_page_counter_and_item_storage_app:
-    image: username/repository:tag
+    image: annakrih/week1:day2
     ports:
      - "3000:3000"
     links:
@@ -12,6 +12,6 @@ services:
   my_postgres_cointainer:
     image: postgres
     environment:
-      POSTGRES_DB: 'my_postgres_database'
-      POSTGRES_USER: 'my_postgres_user'
-POSTGRES_PASSWORD: 'my_postgres_password'
+      POSTGRES_DB: 'hgopDB'
+      POSTGRES_USER: 'postgresAdmin'
+      POSTGRES_PASSWORD: 'AnnaKristin'
